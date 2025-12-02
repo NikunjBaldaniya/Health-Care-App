@@ -1,4 +1,4 @@
-# Health Care App
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=27&pause=1000&color=22F700&width=550&lines=Health+Care+Android+Application)](https://git.io/typing-svg)
 
 **Health Care** is an Android application designed for healthcare management, medicine search, and doctor consultation. It includes separate panels for users and admin, AI chat support, health news, medicine purchases, and location-based features.
 
