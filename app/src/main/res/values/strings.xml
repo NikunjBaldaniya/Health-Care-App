@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">Health Care App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ai_chat">Ai Chat</string>
+    <string name="NEWS_API_KEY">pub_e2bf428fab8e434489824367721a5146</string>
+    <string name="click_to_resend"><u>Click to resend</u></string>
+
+    <string name="terms_text">
+        <![CDATA[
+Effective Date: July 5, 2025\n\n
+
+1. Acceptance of Terms\n
+By using this application, you agree to abide by these Terms and Conditions.\n
+If you disagree with any part, please stop using the app immediately.\n\n
+
+2. App Usage\n
+This healthcare app is designed to help users book appointments, manage medicines,\n
+chat with AI assistant, and view profiles. This app is not a substitute for real-time medical consultation.\n\n
+
+3. User Responsibilities\n
+- Users must provide accurate information while signing up.\n
+- Users are responsible for keeping login credentials confidential.\n
+- Misuse of the app for harmful or illegal purposes is strictly prohibited.\n\n
+
+4. Appointments & Cancellations\n
+Appointments are based on doctor availability. Users can cancel or reschedule\n
+based on individual doctor’s policies.\n\n
+
+5. Payments\n
+All payments are handled by third-party payment gateways.\n
+We are not liable for failed or delayed transactions due to network/banking issues.\n\n
+
+6. Intellectual Property\n
+All content including UI, graphics, code, and AI systems are property of Thunder .\n
+Unauthorized use is prohibited.\n\n
+
+7. AI Chat Limitations\n
+The AI assistant is designed for informational purposes only.\n
+For real emergencies, please consult a licensed medical professional.\n\n
+
+8. Modifications\n
+We reserve the right to change these terms. Continued use of the app implies acceptance of updates.\n\n
+
+9. Contact\n
+For any questions, please email us at: support@yourcompany.com
+        ]]>
+    </string>
+
+    <string name="privacy_text">
+        <![CDATA[
+Effective Date: July 5, 2025\n\n
+
+1. Information We Collect\n
+- Personal Info: Name, Email, Contact, Date of Birth\n
+- Health Info: Appointment details, medicine schedules\n
+- Device Info: Device model, Android version\n
+- Location: To show nearby pharmacies\n\n
+
+2. How We Use Your Data\n
+- To manage user profiles and appointments\n
+- To send notifications and medicine reminders\n
+- To improve AI recommendations\n
+- To show location-based services\n\n
+
+3. Data Storage and Security\n
+Your data is encrypted and stored securely using Firebase and other trusted services.\n
+We implement best practices for data protection.\n\n
+
+4. Sharing of Data\n
+We do not sell your data. Limited data may be shared with third-party tools for essential features like payments, maps, etc.\n\n
+
+5. User Control\n
+- You may request data correction or deletion anytime.\n
+- You can withdraw consent by stopping app usage and requesting data deletion.\n\n
+
+6. Children’s Privacy\n
+This app is not intended for children under 13 years.\n
+We do not knowingly collect data from minors.\n\n
+
+7. Policy Changes\n
+Our Privacy Policy may change. We will notify users through in-app notification or email for major updates.\n\n
+
+8. Contact\n
+For privacy-related questions, contact: privacy@thunder.com
+        ]]>
+    </string>
+
+    <string name="blood_group_label">Select Blood Group</string>
+
+    <string-array name="blood_group_items">
+        <item>A⁺</item>
+        <item>AB⁺</item>
+        <item>O⁺</item>
+        <item>A⁻</item>
+        <item>AB⁻</item>
+        <item>O⁻</item>
+    </string-array>
+
+    <string-array name="activity_level">
+        <item>Sedentary</item>
+        <item>Moderate</item>
+        <item>Active</item>
+    </string-array>
+    <string name="title_activity_admin_deshboard">AdminDeshboardActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="read_less"><![CDATA[<font color="#0091EA"><b>Read Less</b></font>]]></string>
+
+    <string name="read_more"><![CDATA[<font color="#0091EA"><b>Read More</b></font>]]></string>
+
+</resources>
+

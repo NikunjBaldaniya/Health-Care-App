@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DoctorDetailsActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="35dp"
+        android:gravity="center_vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="9dp"
+            android:backgroundTint="@android:color/transparent"
+            android:minWidth="0dp"
+            android:padding="0dp"
+            app:icon="@drawable/back"
+            app:iconSize="22sp"
+            app:iconTint="@color/dayNight"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Doctor Detail"
+            android:textColor="@color/dayNight"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/btnBack"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btnBack" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/imgDoctor"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="39dp"
+                android:src="@drawable/profile"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:shapeAppearanceOverlay="@style/CircleImage" />
+
+            <TextView
+                android:id="@+id/txtDoctorName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="Doctor Name"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins_semibold"
+                app:layout_constraintEnd_toEndOf="@+id/imgDoctor"
+                app:layout_constraintStart_toStartOf="@+id/imgDoctor"
+                app:layout_constraintTop_toBottomOf="@+id/imgDoctor" />
+
+            <TextView
+                android:id="@+id/txtJobTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-10dp"
+                android:text="Job Title"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/txtDoctorName"
+                app:layout_constraintStart_toStartOf="@+id/txtDoctorName"
+                app:layout_constraintTop_toBottomOf="@+id/txtDoctorName" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="65dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtJobTitle">
+
+                <ImageButton
+                    android:id="@+id/btnWhatsApp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginEnd="25dp"
+                    android:background="@drawable/whatsapp_bg"
+                    android:src="@drawable/whatsapp"
+                    app:tint="@color/green" />
+
+                <ImageButton
+                    android:id="@+id/btnPhone"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginEnd="25dp"
+                    android:background="@drawable/phone_bg"
+                    android:src="@drawable/phone_call"
+                    app:tint="@color/blue_700" />
+
+                <ImageButton
+                    android:id="@+id/btnInstagram"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginEnd="25dp"
+                    android:background="@drawable/instagram_bg"
+                    android:src="@drawable/instagram"
+                    app:tint="@color/red" />
+
+                <ImageButton
+                    android:id="@+id/btnLocation"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/location_bg"
+                    android:src="@drawable/location"
+                    app:tint="#00BFA5" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/blue_bg"
+                android:orientation="horizontal"
+                android:paddingStart="5dp"
+                android:paddingTop="2dp"
+                android:paddingEnd="5dp"
+                android:paddingBottom="2dp"
+                app:layout_constraintEnd_toEndOf="@+id/txtJobTitle"
+                app:layout_constraintStart_toStartOf="@+id/txtJobTitle"
+                app:layout_constraintTop_toBottomOf="@+id/txtJobTitle">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="★ "
+                    android:textColor="@color/blue" />
+
+                <TextView
+                    android:id="@+id/txtRating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4.7"
+                    android:textColor="@color/blue" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Description"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/linearLayout14"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout14" />
+
+            <TextView
+                android:id="@+id/txtDescription"
+                android:layout_width="315dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/poppins_light"
+                android:text="This is Doctor Description"
+                android:textSize="15sp"
+                android:clickable="true"
+                android:focusable="true"
+                app:layout_constraintStart_toStartOf="@+id/textView12"
+                app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

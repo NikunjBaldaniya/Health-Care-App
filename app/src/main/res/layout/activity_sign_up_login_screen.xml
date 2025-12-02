@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpLoginScreenActivity">
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        app:srcCompat="@drawable/app_logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Healthcare"
+        android:textColor="@color/darkBlue"
+        android:textSize="31sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let’s get started!"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_marginTop="25sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login to Stay healthy and fit"
+        android:textSize="20sp"
+        android:letterSpacing="0.1"
+        android:textColor="@color/grey"
+        android:layout_marginTop="5dp"
+        />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/blue"
+        android:layout_marginTop="35dp"
+        android:text="Sign In with Email"
+        android:layout_marginEnd="35dp"
+        android:layout_marginStart="35dp"
+        app:icon="@drawable/email"
+        app:iconTint="@color/white"
+        android:padding="16sp"
+        android:textSize="16sp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up with Email"
+        android:textColor="@color/blue"
+        app:strokeWidth="1.5dp"
+        app:strokeColor="@color/blue"
+        app:cornerRadius="50dp"
+        android:padding="16dp"
+        app:icon="@drawable/email"
+        app:iconTint="@color/blue_700"
+        android:layout_marginEnd="35dp"
+        android:layout_marginStart="35dp"
+        android:textSize="16sp"
+        android:layout_marginTop="7dp"
+        android:backgroundTint="@android:color/transparent"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAdminSignIn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Sign In As Admin"
+        android:textColor="@color/green"
+        app:strokeWidth="1.5dp"
+        app:strokeColor="@color/green"
+        app:cornerRadius="50dp"
+        android:padding="16dp"
+        app:icon="@drawable/admin"
+        app:iconTint="@color/green"
+        android:layout_marginEnd="35dp"
+        android:layout_marginStart="35dp"
+        android:textSize="16sp"
+        android:layout_marginTop="7dp"
+        android:backgroundTint="@android:color/transparent"/>
+
+</LinearLayout>

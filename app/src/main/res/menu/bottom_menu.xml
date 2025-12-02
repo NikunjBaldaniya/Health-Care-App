@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:title="Home"
+        />
+    <item
+        android:id="@+id/medicine"
+        android:icon="@drawable/medicine"
+        android:title="Medicine" />
+
+    <item
+        android:id="@+id/ai_chat"
+        android:title=""
+        android:enabled="false"/>
+    <item
+        android:id="@+id/health"
+        android:icon="@drawable/healthcare"
+        android:title="Health" />
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/user"
+        android:title="Profile" />
+
+
+</menu>
